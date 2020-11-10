@@ -1,0 +1,19 @@
+Orden de trabajo:
+
+1) Clonar el repositorio:
+git clone http://tu_url_repositorio.com
+
+Todos los dias
+2) Traer los cambios del respositorio
+git pull origin master
+
+3) Hacer los cambios
+
+4) Agregar todos los archivos nuevo creados al repositorio
+git add . 
+
+5) "Commitear" los cambios, subirlos al stage local
+git commit -m '[POST CONDICIONES] Mensaje de explicación el commit'
+
+6) "Pushear" los cambios al repositorio
+git push origin master
